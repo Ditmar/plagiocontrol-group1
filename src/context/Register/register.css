@@ -1,0 +1,220 @@
+.body {
+    background-color: #E5E5E5;
+    width: 1440px;
+    height: 860px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.form{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: absolute;
+    border: 1px solid #DFE0EB;
+    left: 441px;
+    right: 0px;
+    top: 114px;
+    bottom: 0px;
+    width: 558px;
+    height: 631px;
+    
+}
+.circulo {
+position: absolute;
+left: 255px;
+top: 40px;
+bottom: 658px;
+width: 48px;
+height: 48px;
+background: #3751FF;
+border-radius: 50%;
+
+}
+
+.D {
+   width: 18px;
+   height: 21px;
+   left: 271.5px;
+   top: 53.5px;
+   position: absolute;
+   border-radius: 0 11px 11px 0;
+   background: linear-gradient(143.7deg, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%);;
+  
+}
+.primero {
+    position: absolute;
+    width: 494px;
+    height: 24px;
+    text-align: center;
+    top: 100px;
+    left: 32px;
+    opacity: 70%;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #A4A6B3 ;
+    opacity: 0.7;
+}
+.segundo {
+    position: absolute;
+   width: 494px;
+   height: 30px;
+   top: 156px;
+   left: 32px; 
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   text-align: center;
+   letter-spacing: 0.3px;
+   color: #252733;
+}
+.tercero {
+    position: absolute;
+    width: 494px;
+    height: 20px;
+    top: 198px;
+    left: 32px;
+    font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: center;
+   letter-spacing: 0.3px;
+   color: #9FA2B4;
+}
+.email {
+    position: absolute;
+    width: 494px;
+    height: 64px;
+    top: 266px;
+    left: 32px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
+.password {
+    position: absolute;
+    width: 494px;
+    height: 64px;
+    top: 354px;
+    left: 32px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
+.repassword {
+    position: absolute;
+    width: 494px;
+    height: 64px;
+    top: 437px;
+    left: 32px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
+.scale {
+    width: 494px;
+    height: 42px;
+    top: 22px;
+    border-radius: 8px;
+    border: 1px solid #F0F1F7;
+    background: #FCFDFE;
+}
+.forgot {
+    position: absolute;
+    width: 85px;
+    height: 13px;
+    top: -8px;
+    left: 415px;
+    right: 32px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+.button{
+    position: absolute;
+    width: 494px;
+    height: 48px;
+    left: 32px;
+    top: 516px;
+    border-radius: 8px;
+    background:#3751FF ;
+    box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+    
+    color: #fff;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.ultimo {
+    position: absolute;
+    width: 149px;
+    height: 20px;
+    top: 571px;
+    left: 177px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
+.login {
+    position: absolute;
+    height: 20px;
+    left: 150px;
+    top: calc(50% - 20px/2);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #3751FF;
+}
+.icon1 {
+    width: 20.67px;
+    height: 15.33px;
+    top: 31px;
+    left: 465.67px;
+    position: absolute;
+    bottom: 16.67%;
+    
+}
+.icon2 {
+    position: absolute;
+    width: 20.67px;
+    height: 15.33px;
+    left: 465.67px;
+    top: 33px;
+}
+
+
+

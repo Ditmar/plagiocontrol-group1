@@ -20,9 +20,7 @@ const Header = ({ navigation }) => {
 					navigation.map(({ items, title }) => (
 						<Navigation items={items} key={`header-menu-${title}`} />
 					))}
-			</div>
-			<img src={Logo} alt="Celtic Elements Logo" />
-			<Button onClick={toggleMenu}>{isOpen ? `Hide` : `Show`} menu</Button>
+			</div>			
 		</StyledHeader>
 	);
 };

@@ -78,7 +78,7 @@ export const StyledHeader = styled.header`
 
 		@media ${device.md} {
 			height: 64px;
-			left: 50%;
+			left: 60%;
 			position: absolute;
 			top: 50%;
 

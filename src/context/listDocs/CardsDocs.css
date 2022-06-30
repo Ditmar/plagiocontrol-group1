@@ -1,0 +1,116 @@
+.docs {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+.letra1 {
+    position: absolute;
+    height: 24px;
+    left: 32px;
+    right: 178px;
+    top: 32px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+.group {
+    position: absolute;
+    height: 16px;
+    left: 32px;
+    right: 178px;
+    top: 64px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+
+.ticket1 {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 96px;
+    border-bottom: 1px solid #DFE0EB;
+
+}
+.letraticket {
+    position: absolute;
+    height: 20px;
+    left: 32px;
+    right: 136px;
+    top: calc(50% - 20px/2 + 1px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.details {
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    right: 105px;
+    top: 21px;
+}
+.letraview{
+    position: absolute;
+    height: 20px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 20px/2);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #3751FF;
+}
+.letrapag {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    right: 32px;
+    top: calc(50% - 20px/2 + 1px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+
+.ticket2 {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 154px;
+    border-bottom: 1px solid #DFE0EB;
+}
+.details2 {
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    right: 106px;
+    top: 22px;  
+}

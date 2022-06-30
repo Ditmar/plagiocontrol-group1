@@ -11,4 +11,4 @@ const data = {
 storiesOf('register', module)
 .add('default', () => <Register {...data} isLoading={false}/>)
 .add('isLoading', () => <Register {...data} />)
-.add('IsFormErrors', () =>  <Register {...data} isLoading={false} errors={true} />)
+.add('IsFormErrors', () =>  <Register {...data} isLoading={false} errors={true}  />)

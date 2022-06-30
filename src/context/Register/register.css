@@ -43,7 +43,7 @@ border-radius: 50%;
    background: linear-gradient(143.7deg, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%);;
   
 }
-.primero {
+.titleh3 {
     position: absolute;
     width: 494px;
     height: 24px;
@@ -59,7 +59,7 @@ border-radius: 50%;
     color: #A4A6B3 ;
     opacity: 0.7;
 }
-.segundo {
+.titleh1 {
     position: absolute;
    width: 494px;
    height: 30px;
@@ -74,7 +74,7 @@ border-radius: 50%;
    letter-spacing: 0.3px;
    color: #252733;
 }
-.tercero {
+.titleh4 {
     position: absolute;
     width: 494px;
     height: 20px;
@@ -89,53 +89,76 @@ border-radius: 50%;
    letter-spacing: 0.3px;
    color: #9FA2B4;
 }
-.email {
+.form_email {
     position: absolute;
     width: 494px;
     height: 64px;
     top: 266px;
     left: 32px;
-
-    font-family: 'Mulish';
-    font-style: normal;
-    font-size: 12px;
-    letter-spacing: 0.3px;
-    color: #9FA2B4;
+    right: 32px;
 }
-.password {
+.form_password {
     position: absolute;
-    width: 494px;
     height: 64px;
     top: 354px;
     left: 32px;
-    
-    font-family: 'Mulish';
-    font-style: normal;
-    font-size: 12px;
-    letter-spacing: 0.3px;
-    color: #9FA2B4;
 }
-.repassword {
+.form_repassword {
     position: absolute;
-    width: 494px;
     height: 64px;
     top: 437px;
     left: 32px;
+}
+.label {
+    position: absolute;
+    height: 16px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
     
     font-family: 'Mulish';
     font-style: normal;
+    font-weight: 700;
     font-size: 12px;
+    line-height: 15px;
     letter-spacing: 0.3px;
-    color: #9FA2B4;
+    text-transform: uppercase;
+    color: #9FA2B4;  
 }
 .scale {
+    
     width: 494px;
     height: 42px;
     top: 22px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
     border-radius: 8px;
     border: 1px solid #F0F1F7;
     background: #FCFDFE;
+    box-sizing: border-box;
+    
+ }  
+ input::placeholder { 
+    position: absolute;
+    left: 16px;
+    right: 8px;
+    top: 11px;
+    bottom: 11px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+
+    color: #4B506D;
+
+     opacity: 0.4;
+    
 }
+
 .forgot {
     position: absolute;
     width: 85px;
@@ -169,6 +192,7 @@ border-radius: 50%;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
+    border: none;
 }
 .ultimo {
     position: absolute;
@@ -200,20 +224,23 @@ border-radius: 50%;
     color: #3751FF;
 }
 .icon1 {
-    width: 20.67px;
-    height: 15.33px;
-    top: 31px;
-    left: 465.67px;
+    width: 16.67px;
+    height: 13.33px;
+    top: 34px;
+    left: 460.67px;
     position: absolute;
     bottom: 16.67%;
+    color: #9FA2B4;
     
 }
 .icon2 {
     position: absolute;
-    width: 20.67px;
-    height: 15.33px;
-    left: 465.67px;
-    top: 33px;
+    width: 16.67px;
+    height: 13.33px;
+    left: 460.67px;
+    top: 35px;
+    bottom: 16.67%;
+    color: #9FA2B4;
 }
 
 

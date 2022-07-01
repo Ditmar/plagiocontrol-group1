@@ -1,25 +1,14 @@
-/*import React from "react";
-import { Card } from "./Card";
+import React from "react";
+import Cards from "./Cards"
+
 export default {
-    title: 'ui/components/button',
-    component: Card,
-    argTypes: { handleClick: {action: 'handleClick'}}
+    title: 'CardComponet',
+    Comment: Cards,
 }
 
-const Template = args => <Card  {...args}/>
-export const DefaultButton = Template.bind({});
-DefaultButton.args = {
-    label: 'Press Me',
-    backgroundColor: '#3751FF',
-    isShadow: true,
-    size: 'md'
-}
+const Template = (args) => <Cards{...args}/>
 
-export  const PrimaryButton = Template.bind({});
-PrimaryButton.args = {
-    label: 'Primary',
-    backgroundColor: '#e338ff',
-    isShadow: false,
-    size: 'lg'
+export const card = Template.bind({});
+Cards.args = {
+    bg:false
 }
-*/

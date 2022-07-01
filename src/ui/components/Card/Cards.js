@@ -1,3 +1,4 @@
+import { PropTypes } from "prop-types";
 import './Cards.css';
 export function Cards() {
   return (
@@ -20,7 +21,7 @@ export function Cards() {
         </div>
   );
 }
-/*
+
 Cards.prototype = {
   label: PropTypes.string,
   style: PropTypes.string,
@@ -28,4 +29,3 @@ Cards.prototype = {
   isShadow: PropTypes.boolean,
   backgroundColor: PropTypes.string
 }
-*/

@@ -1,0 +1,64 @@
+
+.container{
+    position: absolute;
+    left: 205px;
+    right: 42px;
+    top: 122px;
+    bottom: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    width: 1122px;
+    height: 942px;
+    margin-top: -22px;
+
+    
+}
+.headerCard{
+    
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+
+.buttons{
+    
+    display: inline-flex;
+   
+}
+#btnicon{
+
+  
+    background: none;
+    border: none;
+    color: #C5C7CD;
+    
+    
+    
+    
+
+}
+
+th{
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+
+.table{
+   border: 2px solid black;
+   width: 200px;
+   height: 200px;
+ }
+
+button{
+    background:none;
+    border: none;
+    font-size: 10px;
+}

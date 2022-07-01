@@ -12,9 +12,9 @@ export function Cards() {
             </div>
             <div className="header">
               <h5 >Ver Detalles</h5>
-              <a href="#">
+              
                 <img src="https://source.unsplash.com/random/140x210" alt="" width={140} height={210} />
-              </a>
+              
             </div>
           </div>
         </div>

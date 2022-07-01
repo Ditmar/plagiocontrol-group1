@@ -11,16 +11,23 @@
     justify-content: center;
     height: 100vh;
     background: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mulish', sans-serif;
     padding: 0 20px;
 }
 
 .card-container{
     display: flex;
+    box-sizing: border-box;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border: 1px solid #DFE0EB;
     width: 600px;
     height: auto;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,.2);
 }
 
@@ -59,8 +66,22 @@
 }
 
 .header h3{
-    color: #899;
-    align-items: right;
+    
+    width: 80px;
+    height: 20px;
+    right: 32px;
+    top: calc(50% - 20px/2 + 1px);
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;    
+    line-height: 20px;
+
+
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
 }
 
 .header h4{
@@ -69,6 +90,8 @@
 
 .header h5{
     align-items: center;
+    color: #3751FF;
+
 }
 
 .description{

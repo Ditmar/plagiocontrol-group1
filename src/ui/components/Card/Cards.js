@@ -7,7 +7,8 @@ export function Cards() {
           <div className="card-container" >
             <div className="description">
               <h1>Autor. Ing. Raul Gomez</h1>
-              <h5>Analisis de la investigacion sobre radio en bolivia...<><h3>320pag</h3></></h5>
+              <p>Analisis de la investigacion sobre radio en bolivia...</p>
+              <h3>320 pag</h3>
               <hr />
             </div>
             <div className="header">
@@ -20,5 +21,12 @@ export function Cards() {
         </div>
   );
 }
-
-
+/*
+Cards.prototype = {
+  label: PropTypes.string,
+  style: PropTypes.string,
+  handleClick: PropTypes.func,
+  isShadow: PropTypes.boolean,
+  backgroundColor: PropTypes.string
+}
+*/

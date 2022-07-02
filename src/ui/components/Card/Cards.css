@@ -12,27 +12,27 @@
     height: 100vh;
     background: white;
     font-family: 'Mulish', sans-serif;
-    padding: 0 20px;
+    padding: 0 1.5rem;
 }
 
 .card-container{
     display: flex;
     box-sizing: border-box;
     position: relative;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    border: 1px solid #DFE0EB;
-    width: 600px;
+    left: 0rem;
+    right: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+    border: 0.063rem solid #DFE0EB;
+    width: 37.5rem;
     height: auto;
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,.2);
 }
 
 .header{
-    border-right: 1px solid #e6e6e6;
+    border-right: 0.063rem solid #e6e6e6;
 }
 
 .description{
@@ -41,7 +41,7 @@
 }
 
 .header, .description{
-    padding: 20px;
+    padding: 1.25rem;
     text-align: left;
 }
 
@@ -52,13 +52,13 @@
 
 .header img{
     border-radius: 0%;
-    box-shadow: 0 0 0 8px rgba(0,0,0,.0);
-    margin: 20px 30px;
+    box-shadow: 0 0 0 0.5rem rgba(0,0,0,.0);
+    margin: 1.25rem 1.875rem;
     transition: .2s;
 }
 
 .header a:hover img{
-    box-shadow: 0 0 0 8px rgba(0,0,0,.0);
+    box-shadow: 0 0 0 0.5rem rgba(0,0,0,.0);
 }
 
 .header h2{
@@ -67,25 +67,25 @@
 
 .header h3{
     
-    width: 80px;
-    height: 20px;
-    right: 32px;
-    top: calc(50% - 20px/2 + 1px);
+    width: 5rem;
+    height: 1.25rem;
+    right: 2rem;
+    top: calc(50% - 1.25rem/2 + 0.063rem);
 
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;    
-    line-height: 20px;
+    font-size: 0.875rem;    
+    line-height: 1.25rem;
 
 
     text-align: right;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.013rem;
     color: #9FA2B4;
 }
 
 .header h4{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .header h5{
@@ -99,31 +99,31 @@
 }
 
 .description p{
-    margin: 20px 30px;
+    margin: 1.25rem 1.875rem;
 }
 
 .description .social {
-    margin-top: 25px;
+    margin-top: 1.563rem;
 }
 
 .description .social a{
     display: inline-block;
     color: #f0522a;
-    padding: 0 15px;
+    padding: 0 0.938rem;
     
 }
 
-@media (max-width: 640px){
+@media (max-width: 40rem){
     .card-container{
         display: block;
-        width: 100%;/*450px*/
+        width: 100%;
     }
     .header{
-        padding: 20px 20px 5px 20px;
+        padding: 1.25rem 1.25rem 0.313rem 1.25rem;
         border: none;
     }
     .description{
-        padding: 5px 20px 20px 20px;
+        padding: 0.313rem 1.25rem 1.25rem 1.25rem;
         background: transparent;
     }
 

@@ -2,7 +2,8 @@ import { PropTypes } from "prop-types";
 import './Cards.css';
 export function Cards() {
   return (
-    ///create to card in react component using storybook
+    <>
+    
     <div className="container">
           <div className="card-container" >
             <div className="description">
@@ -19,6 +20,8 @@ export function Cards() {
             </div>
           </div>
         </div>
+
+        </>  
   );
 }
 

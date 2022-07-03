@@ -8,7 +8,7 @@ export default {
 
 const Template = (args) => <Cards{...args}/>
 
-export const card = Template.bind({});
+export const card = Template.bind({card});
 Cards.args = {
     bg:false
 }

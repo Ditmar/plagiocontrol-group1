@@ -113,6 +113,25 @@
     
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .grid-item {
+    grid-column:span 3;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 0rem solid rgba(0, 0, 0, 0.0);
+    padding: 0rem;
+    font-size: 0.938rem;
+    text-align: left;
+    box-sizing: border-box;
+  }
+  
+  .custom {
+   grid-column:span 2;
+  }
+
 @media (max-width: 40rem){
     .card-container{
         display: block;

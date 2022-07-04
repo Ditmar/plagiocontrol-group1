@@ -10,8 +10,8 @@ export const Register = ({}) => {
     return (
         <div>
             <form className="form" onSubmit={onSubmit}>
-            <p className="circulo"></p>
-                <p className="D"></p>  
+            <p className="circle"></p>
+                <p className="center"></p>  
                 <h3 className="titleh3">Plagio Control</h3> <br/>
                 <h1 className="titleh1">Login Plagio Control</h1><br/>
                 <h4 className="titleh4">Enter your email and password below</h4>

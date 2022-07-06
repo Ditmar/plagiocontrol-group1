@@ -12,7 +12,7 @@ export const Registers = ( props) => {
     }
     return (
          <div className="body"  >
-            <form className="form" onSubmit={onSubmit}>
+            <form className="form_f" onSubmit={onSubmit}>
                 <p className="circle"></p>
                 <p className="semi_circle"></p>  
                 <h3 className="titleh3">Plagio Control</h3> <br/>

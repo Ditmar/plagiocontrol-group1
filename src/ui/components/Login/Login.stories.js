@@ -4,7 +4,7 @@ import React from "react";
 
 import { Login } from "./Login";
 export default {
-    title: "Login",
+    title: "ui/components/Login",
     component:Login
 }
 const Template = (args) => <Login {...args}/>

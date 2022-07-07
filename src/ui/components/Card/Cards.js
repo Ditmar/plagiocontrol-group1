@@ -13,7 +13,7 @@ export function Cards() {
               
               <div className="grid-container">
                 <div className="grid-item"><p>Analisis de la investigacion sobre radio en bolivia...</p></div>
-                  <div className="grid-item"><p>325 pag</p></div>
+                  <div className="grid-item1"><p>325 pag</p></div>
                 </div>
                 
                 <hr/>

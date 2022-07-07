@@ -37,12 +37,12 @@
 
 .description{
     background: #fbfbfb;
-    text-align: left;
+    text-align: center;
 }
 
 .header, .description{
     padding: 1.25rem;
-    text-align: left;
+    text-align: right;
 }
 
 .header a{
@@ -120,13 +120,19 @@
   }
   
   .grid-item {
-    grid-column:span 3;
+    grid-column:span 5;
     background-color: rgba(255, 255, 255, 0.0);
     border: 0rem solid rgba(0, 0, 0, 0.0);
     padding: 0rem;
     font-size: 0.938rem;
     text-align: left;
     box-sizing: border-box;
+  }
+  .grid-item1{
+    grid-column: span 1;
+    text-decoration-color: #9FA2B4;
+    text-align: right;
+    font-size: 0.938rem;
   }
   
   .custom {
@@ -145,6 +151,7 @@
     .description{
         padding: 0.313rem 1.25rem 1.25rem 1.25rem;
         background: transparent;
+        text-align: left;
     }
 
     .header h3{

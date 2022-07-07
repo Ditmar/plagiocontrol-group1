@@ -89,8 +89,9 @@
 }
 
 .header h5{
-    align-items: center;
+    
     color: #3751FF;
+    align-content: left;
 
 }
 

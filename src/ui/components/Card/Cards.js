@@ -7,7 +7,7 @@ export function Cards() {
     <div className="container">
           <div className="card-container" >
             <div className="description">
-              <h1>Autor. Ing. Raul Gomez</h1>
+              <h3>Autor. Ing. Raul Gomez</h3>
               <br/>
               
               

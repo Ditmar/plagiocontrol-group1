@@ -1,9 +1,9 @@
 import React from "react";
-import { Sidebar } from "./../../ui/components/Sidebar/Sidebar";
+import { SidebarComponent } from "../../ui/components/sidebar/SidebarComponent";
 export const Home = () => {
   return (
     <div>
-      <Sidebar />
+      <SidebarComponent />
     </div>
   );
 };

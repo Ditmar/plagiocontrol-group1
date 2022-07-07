@@ -120,23 +120,28 @@
   }
   
   .grid-item {
-    grid-column:span 5;
+    grid-column:span 3;
     background-color: rgba(255, 255, 255, 0.0);
     border: 0rem solid rgba(0, 0, 0, 0.0);
     padding: 0rem;
-    font-size: 0.938rem;
+    font-size: 0.875rem;
     text-align: left;
     box-sizing: border-box;
+    letter-spacing: 0.013rem;
+    font-style: normal;
+    color: #252733;
   }
   .grid-item1{
-    grid-column: span 1;
+    grid-column: span 3;
     text-decoration-color: #9FA2B4;
     text-align: right;
-    font-size: 0.938rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    
   }
   
   .custom {
-   grid-column:span 2;
+   grid-column:span 1;
   }
 
 @media (max-width: 40rem){

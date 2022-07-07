@@ -7,13 +7,16 @@ export function Cards() {
     <div className="container">
           <div className="card-container" >
             <div className="description">
-              <h3>Autor. Ing. Raul Gomez</h3>
+              <div className="title"><h3>Autor. Ing. Raul Gomez</h3></div>
+              
               <br/>
+              <br/>
+              
               
               
               <div className="grid-container">
                 <div className="grid-item"><p>Analisis de la investigacion sobre radio en bolivia...</p></div>
-                  <div className="grid-item1"><p>325 pag</p></div>
+                  <div className="grid-item1"><p className="pag">325 pag</p></div>
                 </div>
                 
                 <hr/>

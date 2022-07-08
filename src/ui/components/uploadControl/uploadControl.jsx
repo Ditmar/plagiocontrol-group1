@@ -1,6 +1,6 @@
-import React, { useCallback, useState } from "react";
-import { useDropzone } from "react-dropzone";
-import "./index.css";
+import React, { useCallback, useState } from 'react';
+import { useDropzone } from 'react-dropzone';
+import './index.css';
 
 export const UploadControl = () => {
     const [selectedImages, setSelectedImages] = useState([])

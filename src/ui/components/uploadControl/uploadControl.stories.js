@@ -1,5 +1,5 @@
-import React from "react";
-import { UploadControl } from "./uploadControl";
+import React from 'react';
+import { UploadControl } from './uploadControl';
 export default {
     title: 'ui/components/uploadControl',
     component: UploadControl,

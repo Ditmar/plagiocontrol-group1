@@ -1,8 +1,9 @@
 import React from "react";
+import  { Login as Login_in } from '../../ui/components/Login/Login';
+
 export const Login = () => {
-    return (
-        <div>
-            Login page
-        </div>
-    )
+  return(
+    <Login_in/>
+  );
 }
+

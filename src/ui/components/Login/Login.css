@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body{
+    background: #E5E5E5;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+.circulo {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #3751FF;
+    margin: auto;
+   }
+.centro{
+    position: relative;
+    left: 16.5px;
+    top: 13.5px;
+    width: 18px;
+    height: 21px;
+    border-radius: 50%; 
+    background: linear-gradient(143.7deg, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%);
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+}
+.form_first_title{
+margin-top: 12px;
+font-weight: 700;
+font-size: 19px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.4px;
+color: #A4A6B3;
+opacity: 0.7;
+}
+.form{
+    background: #FFFFFF;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    
+}
+.form_title{
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #252733;
+    
+
+}
+.form_paragraph{
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+    margin: 3px;
+}
+.form_container{
+    margin-top: 3px;
+    display: grid;
+    gap: 2.5em;
+}
+.form_group{
+    position: relative;
+    top: 48px; 
+}
+.form_group2{
+    position: relative;
+    top: 24px; 
+}
+.form_coment{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: end;
+}
+.form_label{
+    position: absolute;
+    height: 16px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #9FA2B4;
+}
+.form_forgot{
+    
+    width: 85px;
+    height: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+.form_input{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #4B506D;
+    opacity: 0.4;
+    background: #FCFDFE;
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    width: 92%;
+    padding: 11px;
+   
+}
+.form_submit{
+    background: #3751FF;
+    color: #FFFFFF;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+    border-radius: 8px;
+    padding: 13px;
+   
+}
+.form_link{
+text-decoration: none;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #3751FF;
+}
+.eye{
+    position: absolute;
+    width:16.67px;
+    height: 13.33px;
+    top: 32.33px;
+    right: 14.33px; 
+    opacity: 0.3;
+    cursor: pointer;
+    size: 1px;
+    
+}
+.eye:hover{
+    opacity: 0.8;
+}

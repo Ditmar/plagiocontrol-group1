@@ -4,7 +4,6 @@ export const Works = () => {
     return (
         <div>
             Works page
-          
         </div>
     )
 }

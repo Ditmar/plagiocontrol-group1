@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Muli");
 .App {
   text-align: center;
 }
@@ -39,14 +40,13 @@
 
 .inputErrors {
   border: 1px solid red;
-  
 }
 .button {
   padding: 0.75rem 3.8rem;
-  background-color: #3751FF;
+  background-color: #3751ff;
   border: none;
   color: #fff;
-  font-family: 'Arial';
+  font-family: "Arial";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -56,10 +56,10 @@
 }
 .button-large {
   padding: 0.75rem 11.8rem;
-  background-color: #3751FF;
+  background-color: #3751ff;
   border: none;
   color: #fff;
-  font-family: 'Arial';
+  font-family: "Arial";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;

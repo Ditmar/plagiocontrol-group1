@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: white;
+    /*font-family: 'Mulish', sans-serif;*/
+    padding: 0 1.5rem;
+}
+
+.card-container{
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    left: 0rem;
+    right: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+    border: 0.063rem solid #DFE0EB;
+    width: 37.5rem;
+    height: auto;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,.2);
+}
+
+.header{
+    border-right: 0.063rem solid #e6e6e6;
+}
+
+.description{
+    background: white;
+    text-align: center;
+}
+
+.header, .description{
+    padding: 1.25rem;
+    text-align: right;
+}
+
+.header a{
+    position: relative;
+    display: block;
+}
+
+.header img{
+    border-radius: 0%;
+    box-shadow: 0 0 0 0.5rem rgba(0,0,0,.0);
+    margin: 0.9rem 0.25rem;
+    transition: .2s;
+}
+
+.header a:hover img{
+    box-shadow: 0 0 0 0.5rem rgba(0,0,0,.0);
+}
+
+.header h2{
+    color: black;
+}
+
+.header h3{
+    
+    width: 5rem;
+    height: 1.25rem;
+    right: 2rem;
+    top: calc(50% - 1.25rem/2 + 0.063rem);
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;    
+    line-height: 1.25rem;
+
+
+    text-align: right;
+    letter-spacing: 0.013rem;
+    color: #9FA2B4;
+}
+
+.header h4{
+    margin-bottom: 1.25rem;
+}
+
+.header h5{
+    
+    color: #3751FF;
+    align-content: left;
+    font-weight: bold;
+
+}
+
+.title{
+    text-align: left;
+    letter-spacing: 0.4px;
+    color: #252733;
+    
+}
+
+.description{
+    position: relative;
+}
+
+.description p{
+    margin: 0.25rem 0.25rem;
+}
+
+.description .social {
+    margin-top: 1.563rem;
+}
+
+.description .social a{
+    display: inline-block;
+    color: #f0522a;
+    padding: 0 0.938rem;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .grid-item {
+    grid-column:span 3;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 0rem solid rgba(0, 0, 0, 0.0);
+    padding: 0rem;
+    /*font-size: 0.875rem;*/
+    text-align: left;
+    box-sizing: border-box;
+    letter-spacing: 0.013rem;
+    font-style: normal;
+    color: #252733;
+  }
+  .grid-item1{
+    grid-column: span 3;
+    text-decoration-color: #9FA2B4;
+    text-align: right;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    
+  }
+  
+  .custom {
+   grid-column:span 1;
+  }
+
+@media (max-width: 40rem){
+    .card-container{
+        display: block;
+        width: 100%;
+    }
+    .header{
+        padding: 1.25rem 1.25rem 0.313rem 1.25rem;
+        border: none;
+    }
+    .description{
+        padding: 0.313rem 1.25rem 1.25rem 1.25rem;
+        background: transparent;
+        text-align: left;
+    }
+
+    .header h3{
+        margin: 0;
+    }
+
+}

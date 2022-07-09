@@ -1,10 +1,5 @@
 import React from "react"
-import {
-    BrowserRouter,
-    Routes,
-    Route,
-} from "react-router-dom";
-
+import { BrowserRouter, Routes, Route,} from "react-router-dom";
 import { Works } from "./Works/Works"
 import { Review } from "./Review/Review"
 import { Register } from "./Register/Register"

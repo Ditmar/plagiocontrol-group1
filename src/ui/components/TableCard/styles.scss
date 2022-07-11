@@ -112,6 +112,84 @@ body{
              
             tr{
                
+                .updatdet{
+                    /* Ticket information */  
+                    bottom: -15px;
+                    float: right;
+                    width: 150px;
+                    border-radius: nullpx;   
+                    position: relative;
+                    left: -238px;
+                    transform: translateY(7px);
+                    /* Regular/12px */
+                
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 1;
+                    font-size: 12px;
+                    line-height: 12px;
+                    /* identical to box height, or 133% */
+                
+                    letter-spacing: 0.1px;
+                
+                    /* grayscale / gray light */
+                
+                    color: #C5C7CD;
+                }
+                .updateaut{
+                    /* Ticket information */  
+                    bottom: 10px;
+                    float: right;
+                    width: 100px;
+                    border-radius: nullpx;   
+                    position: relative;
+                    left: -150px;
+                    
+                
+                    /* Regular/12px */
+                
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    /* identical to box height, or 133% */
+                
+                    letter-spacing: 0.1px;
+                
+                    /* grayscale / gray light */
+                
+                    color: #C5C7CD;
+                }
+                .updateedit{
+                    /* Ticket information */  
+                    bottom: -30px;
+                    float: right;
+                    width: 100px;
+                    border-radius: nullpx;   
+                    position: relative;
+                    left: -80px;
+                    
+                
+                    /* Regular/12px */
+                
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    /* identical to box height, or 133% */
+                
+                    letter-spacing: 0.1px;
+                
+                    /* grayscale / gray light */
+                
+                    color: #C5C7CD;
+                }
+
+
+
+
                 td.detalleFila{                 
                     min-width: 487px;
                     height: 86px;
@@ -140,7 +218,7 @@ body{
       
     
         p{
-            margin-top: 28px;
+            margin-top: 20px;
             color: #252733;
             font-weight: 600;
             font-size: 14px;                  
@@ -151,7 +229,7 @@ body{
         font-size: 30px;
         width: 200px;
         padding-right: 460px;
-        transform: translateY(-10px);
+        transform: translateY(-25px);
         margin-left: -30px;
         cursor: pointer;
     }
@@ -203,6 +281,7 @@ body{
 .pageNumbers {
     list-style: none;
     display: flex;
+    
   }
   
   
@@ -232,11 +311,14 @@ body{
   }
 
   .btnizquierdo{
-    margin-left: 9px;
+    margin-left: 189px;
+    transform: translateY(-19px);
+    color:#7a7d8d;
   }
   .btnderecho{
-    margin-left:0px ;
-    background: red;
+    margin-left:-3px ;
+    transform: translateY(-19px);
+    color: #7a7d8d;
   }
   .input{
    text-align: end;
@@ -246,13 +328,26 @@ body{
   }
   .paginacion{
     margin-top: -50px;
-    margin-left: 620px;
-    color: #C5C7CD;
+    margin-left: 685px;
+    color: #9FA2B4;
+
   }
   .rows{
     color: #9FA2B4;
-    font-weight: 700;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
+    line-height: 20px;
+  }
+  .pagnum{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9FA2B4;
+    margin-left: 70px;
   }
 }
 .editForm{
@@ -338,5 +433,5 @@ img{
 }
 
 .autorTexto{
-    transform: translateY(-20px);
+    transform: translateY(-33px);
 }

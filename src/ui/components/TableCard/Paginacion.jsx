@@ -83,15 +83,11 @@ import React, { useEffect, useState } from "react";
   return (
     <>
       <ul className="pageNumbers">
-       
-        {pageDecrementBtn}
-        {renderPageNumbers}
-        {pageIncrementBtn}
         <li>
           <button
             onClick={handlePrevbtn}
             disabled={currentPage == pages[0] ? true : false}
-          className ="btnizquierdo">
+            className ="btnizquierdo">
             <i class="bi bi-chevron-left"></i></button>
         </li>
 
@@ -106,7 +102,7 @@ import React, { useEffect, useState } from "react";
       <div className="paginacion"> 
         <h0 className="rows">Rows per page:</h0> 
        <input onClick={handleLoadMore} placeholder="1" type="number" id="tentacles" className="input"
-        min="1" max="50" />
+        min="1" max="50" /><h0 className="pagnum">1-8 of 1240</h0>
       </div>     
     </>
   );

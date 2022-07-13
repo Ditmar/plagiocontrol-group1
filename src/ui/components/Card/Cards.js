@@ -1,10 +1,23 @@
 import { PropTypes } from "prop-types";
 import './Cards.css';
 import book from './Img/cardbook.png';
+import { useEffect, useState} from 'react';
 export function Cards({label}) {
   let styles = {
     fontFamily: 'Arial',
   }
+  const url = 'http://3.138.158.90:8000/server/listdatabase';
+  const [todos, setTodos] = useState();
+  const fetchApi = async () => {
+    const response = await fetch(url)
+    console.log(response.status)
+    const responseJSON = await response.json()
+    setTodos(responseJSON)
+    console.log(responseJSON)
+  }
+  useEffect(()=>{
+    fetchApi()
+  },[])
   return (
 
     <>

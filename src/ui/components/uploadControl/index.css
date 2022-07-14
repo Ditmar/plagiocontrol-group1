@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+.zone{
+    box-sizing: border-box;
+    width: 1048px;
+    height: 475px;
+    left: 315px;
+    top: 156px;
+    background: #FFFFFF;
+    border: 2px dashed #000000;
+}
+.notice{
+    width: 1048px;
+    height: 60px;
+    background: #4497FA;
+    border-radius: 6px;
+    padding: 0;
+}
+.notice p{    
+    width: 1013px;
+    height: 32px;
+    font-family: 'Mulish', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.57px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 16px 14px 12px 21px;
+    position: absolute;
+}
+.uploadButton{
+    width: 316px;
+    height: 48px;
+    background: #3751FF;
+    color: #FFFFFF;
+    font-family: 'Mulish', 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+    border-radius: 8px;
+    padding: 10px;
+}
+.preview{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 363px;
+    height: 174px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(73, 73, 74, 0.24);
+    border: 2px solid #ededed;
+    padding: 0;
+    margin: 32px 18px 32px 18px;
+}
+.prefile{
+    padding: 0;
+    margin: 20px 100px 20px 100px;
+    font-family:'Arial';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: #c7c7c7;
+}
+.prefile .pdf_icon{
+    display: inline-block;
+    width: 30px;
+    padding: 5px 10px 40px 10px;
+    margin: 0;
+}
+.prefile p{
+    display: inline-block;
+    width: 80px;
+    height: auto;
+    word-wrap: break-word;
+    margin: 5px;
+}
+.prefile span{
+    height: 50px;
+    width: 50px;
+}
+.file-remove{
+    margin: 0px 0px 0px 50px;
+    border: none;
+    border-radius: 20%;
+    background-color: rgb(218, 24, 24);
+}
+.trash_icon{
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    padding: 10px 5px 5px 5px;
+}

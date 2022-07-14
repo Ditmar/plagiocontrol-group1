@@ -1,12 +1,12 @@
 import React from "react";
-import { Register } from "./register";
+import { Registers } from "./register";
 
 export default {
     title: 'ui/components/register',
-    component: Register,
+    component: Registers,
 }
 
-const Template = args => <Register  {...args}/>
+const Template = args => <Registers  {...args}/>
 export const DefaultRegister = Template.bind({});
 DefaultButton.args = {
     isloading: true,

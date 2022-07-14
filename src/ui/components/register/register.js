@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 import useForm from "../../../hooks/useForm";
 import {AiFillEyeInvisible} from 'react-icons/ai';
 
-export const Registers = ( props) => {
+export const Registers = (  props) => {
+    
     const [shown, setShown] = React.useState(false);
     const [ handlerChangeForm] = useForm({email:"" , password: "", repassword:""});
     const onSubmit = (event) => {

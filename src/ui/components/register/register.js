@@ -1,29 +1,19 @@
 import React from "react";
-import useForm from "../../hooks/useForm";
-import "../../ui/components/register/register.css";
+import "./register.css";
+import PropTypes from 'prop-types';
+import useForm from "../../../hooks/useForm";
 import {AiFillEyeInvisible} from 'react-icons/ai';
-export const Register = () => {
-    const datos = {
-      email:"" ,
-       password: "",
-        repassword:""  
-    }
+
+export const Registers = (  props) => {
+    
     const [shown, setShown] = React.useState(false);
-    const [form, handlerChangeForm] = useForm({datos});
+    const [ handlerChangeForm] = useForm({email:"" , password: "", repassword:""});
     const onSubmit = (event) => {
         event.preventDefault();
-        const Api= 'http://3.138.158.90:8000/api-doc/#/default/post_server_autenthication_register';
-        fetch(`${Api}post`,{
-            method: 'POST',
-            body: JSON.stringify(form),
-            headers: {
-                 'content-type': 'application/json',
-            }
-        }).then(res=>res.json())
     }
     return (
-        <div>
-         <form className="form_f" onSubmit={onSubmit}>
+         <div className="body"  >
+            <form className="form_f" onSubmit={onSubmit}>
                 <p className="circle"></p>
                 <p className="semi_circle"></p>  
                 <h3 className="titleh3">Plagio Control</h3> <br/>
@@ -44,11 +34,18 @@ export const Register = () => {
                        <input className="scale" type={shown ? "text" : "password"} name="repassword" placeholder="Password" onChange={handlerChangeForm} />
                        <AiFillEyeInvisible className="icon2" value={{color:'#9FA2B4'}} onClick={() => setShown(!shown)} />
                    </div>
-                <input type="submit"  className="button" value="Sing In" /> 
+                <input type="submit"  className="button" value={props.label} /> 
                 <p className="ultimo"> No tienes una cuenta? <a to="/login" className="login"> Login </a> </p>              
                 </div>
             </form>
         </div>
-        
-        )
-    }
+               
+               
+              
+    )
+}
+Registers.propType = {
+    isLoading: PropTypes.bool,
+     errors: PropTypes.bool,
+    label: PropTypes.string
+};

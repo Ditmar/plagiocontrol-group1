@@ -9,6 +9,6 @@ export default {
 const Template = (args) => <Cards{...args}/>
 
 export const card = Template.bind({});
-Cards.args = {
+card.args = {
     bg:false
 }

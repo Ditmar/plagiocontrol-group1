@@ -12,7 +12,7 @@ export function Cards({ label }) {
       const id = sessionStorage.getItem("idUsuario");
       const token = sessionStorage.getItem("token");
       const res = await fetch(
-        `https://backendsingin.herokuapp.com/user/listarUsersCurso/` + id,
+        "http://3.138.158.90:8000/server/listdatabase" + id,
         {
           method: "GET",
           headers: { autorizacion: token },
@@ -37,13 +37,13 @@ export function Cards({ label }) {
 
                <div className="grid-container" style={styles}>
                   <div className="grid-item" style={styles}><p>{user.name}</p></div>
-                  <div className="grid-item1" style={styles}>   <p className="pag">325 pag</p></div>
+                  <div className="grid-item1" style={styles}>   <p className="pag">{user.pages}</p></div>
                </div>
               <hr />
               </div>
                  <div className="header" style={styles}>
                   <h5>Ver Detalles</h5>
-                  <img src={user.avatar} width={140} height={210} />
+                  <img src={user.coverpage} width={140} height={210} />
                  </div>
              
             </div>

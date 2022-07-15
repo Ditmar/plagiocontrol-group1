@@ -5,7 +5,6 @@ import CardForm from './cardForm';
 import Paginacion from './Paginacion'
 
 
-
   export const TableCard = () => {
   const [db, setDb] = useState([]);
 

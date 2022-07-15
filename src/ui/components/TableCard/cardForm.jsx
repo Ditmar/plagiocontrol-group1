@@ -1,17 +1,15 @@
 import useForm from '../../../hooks/useForm';
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
 
 const initialForm = {
 
-  detalle: "",
-  autor: "",
+  detalle: '',
+  autor: '',
   id:null,
 }
 
 const CardForm = (createData, updateData, dataToEdit, setDataToEdit) => {
-
-  //const [form, handlerChangeForm ,handlerResetForm] =useForm()
 
     const[form, setForm] = useState(initialForm);
 

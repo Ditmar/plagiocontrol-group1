@@ -1,67 +1,13 @@
-import React, { useEffect, useState } from "react";
-import messi from "./imagenes/messi.jpg";
-import ronaldo from "./imagenes/ronaldo.jpg";
-import robertocarlos from "./imagenes/robertocarlos.jpg";
-import ronaldiño from "./imagenes/ronaldiño.jpg";
-import ronald2 from "./imagenes/ronald2.png"
-import Table from "./Table";
-import CardForm from "./cardForm";
-import Paginacion from "./Paginacion"
+import React, { useEffect, useState } from 'react';
+import messi from './imagenes/messi.jpg';
+import Table from './Table';
+import CardForm from './cardForm';
+import Paginacion from './Paginacion'
 
-const initialDB = [
-      
-  { 
-    id:1,
-    detalle:<div className="imgTexto"><img src="/imagenes/messi.jpg" /><p>Contact Email not Linked</p></div>,
-    autor :<p className="autorTexto">Tom Cruise </p>,
-    
-  },
-  { 
-    id:2,
-    detalle:<div className="imgTexto"><img src="/imagenes/messi.jpg" /><p>Adding Images to Feactures Post</p></div>,
-    autor :<p className="autorTexto">Matt Daemon</p>,
-    
-  },
-  { 
-    id:3,
-    detalle:<div className="imgTexto"><img src="/imagenes/messi.jpg" /><p>When will Ibe charged this month</p></div>,
-    autor :<p className="autorTexto">Robert Dawney</p>,
-    
-  },
-  { 
-    id:4,
-    detalle:<div className="imgTexto"><img src="/imagenes/messi.jpg" /><p>Payment not going through</p></div>,
-    autor :<p className="autorTexto">Christian Bale</p>,
-    
-  },
-  { 
-    id:5,
-    detalle:<div className="imgTexto"><img src="/imagenes/messi.jpg" /><p>Unable to add replies</p></div>,
-    autor :<p className="autorTexto">Henry Cavil</p>,
-    
-  },
-  { 
-    id:6,
-    detalle:<div className="imgTexto"><img src="/imagenes/messi.jpg" /><p>Downtime since last week</p></div>,
-    autor :<p className="autorTexto">Chris Evans</p>,
-    
-  },
-  { 
-    id:7,
-    detalle:<div className="imgTexto"><img src="/imagenes/messi.jpg" /><p>Referal Bonus</p></div>,
-    autor :<p className="autorTexto">Sam Smith</p>,
-    
-  },
-  { 
-    id:8,
-    detalle:<div className="imgTexto"><img src="/imagenes/messi.jpg" /><p>How do I change mas password?</p></div>,
-    autor :<p className="autorTexto">Steve Rogers</p>,
-    
-  },
- 
-];
+
+
   export const TableCard = () => {
-  const [db, setDb] = useState(initialDB);
+  const [db, setDb] = useState([]);
 
   const [dataToEdit, setDataToEdit] = useState(null);
 
@@ -98,6 +44,7 @@ const initialDB = [
     setDataToEdit = {setDataToEdit}
     deleteData = {deleteData}
     />
+
     </div>
   )
   

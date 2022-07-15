@@ -1,6 +1,6 @@
 import React from 'react'
 import Cardrow from './Cardrow'
-import "./styles.scss"
+import './styles.scss'
 import Paginacion from './Paginacion';
 
 const Table = ({data ,setDataToEdit, deleteData}) => {

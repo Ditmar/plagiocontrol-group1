@@ -1,8 +1,8 @@
-import React from "react";
-import TableCard from "./TableCard";
+import React from 'react';
+import TableCard from './TableCard';
 
     export default{
-        title:"ui/components/TableCard/TableCard",
+        title:'ui/components/TableCard/TableCard',
         component: TableCard,
         parameters: {
             layout: 'fullscreen',

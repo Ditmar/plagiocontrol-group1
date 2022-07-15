@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useEffect} from "react";
 import { PropTypes } from 'prop-types';
 import UseForm from '../../../hooks/useForm';
 
@@ -13,14 +13,35 @@ const {email, password} = form;
 
     const handlerSubmit = (e) => {
         e.preventDefault();
-        
-        if(email === "pepe@gmail.com" && password ==="pepe")
-            {
-                console.log("sesion iniciada");
-            }else{
-                console.log("Credenciales incorrectas");
+
+        const datos = {
+            email:email,
+            password:password
+        };
+        console.log(datos);
+        // if(email === "pepe@gmail.com" && password ==="pepe")
+        //     {
+        //         console.log("sesion iniciada");
+        //     }else{
+        //         console.log("Credenciales incorrectas");
+        //     }
+            const url='http://3.138.158.90:8000/api-doc/#/default/post_server_autenthication_login';
+            var data = {username: 'example'};
+
+            fetch(url, {
+            method: 'POST',
+            body: JSON.stringify(datos),
+            headers:{
+                'Content-Type': 'application/json'
             }
-    
+            }).then(res => res.json())
+            .catch(error => console.error('Error:', error))
+            .then(response => {
+                if(response)
+                    console.log("Inicio de sesion");
+                else
+                    console.log("Errorres");
+            }); 
     }
     const [shown, setShown]=React.useState(false);
     const switchShown=()=>setShown(!shown);    

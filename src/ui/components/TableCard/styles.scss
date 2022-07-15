@@ -113,7 +113,7 @@ body{
             tr{
                
                 .updatdet{
-                    /* Ticket information */  
+                      
                     bottom: -15px;
                     float: right;
                     width: 150px;
@@ -121,19 +121,12 @@ body{
                     position: relative;
                     left: -238px;
                     transform: translateY(7px);
-                    /* Regular/12px */
-                
                     font-family: 'Mulish';
                     font-style: normal;
                     font-weight: 1;
                     font-size: 12px;
                     line-height: 12px;
-                    /* identical to box height, or 133% */
-                
                     letter-spacing: 0.1px;
-                
-                    /* grayscale / gray light */
-                
                     color: #C5C7CD;
                 }
                 .updateaut{

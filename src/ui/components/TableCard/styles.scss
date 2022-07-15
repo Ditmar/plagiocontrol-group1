@@ -113,7 +113,11 @@ body{
             tr{
                
                 .updatdet{
+<<<<<<< HEAD
                     /* Ticket information */  
+=======
+                      
+>>>>>>> 95ee8f6a1f3e3f242c2972b2cc574662739eea49
                     bottom: -15px;
                     float: right;
                     width: 150px;
@@ -121,19 +125,26 @@ body{
                     position: relative;
                     left: -238px;
                     transform: translateY(7px);
+<<<<<<< HEAD
                     /* Regular/12px */
                 
+=======
+>>>>>>> 95ee8f6a1f3e3f242c2972b2cc574662739eea49
                     font-family: 'Mulish';
                     font-style: normal;
                     font-weight: 1;
                     font-size: 12px;
                     line-height: 12px;
+<<<<<<< HEAD
                     /* identical to box height, or 133% */
                 
                     letter-spacing: 0.1px;
                 
                     /* grayscale / gray light */
                 
+=======
+                    letter-spacing: 0.1px;
+>>>>>>> 95ee8f6a1f3e3f242c2972b2cc574662739eea49
                     color: #C5C7CD;
                 }
                 .updateaut{

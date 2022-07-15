@@ -1,0 +1,119 @@
+.docs {
+    position: absolute;
+    display: flex;
+    height: 21rem;
+    width: 70.125rem;
+    left: 17.938rem;
+    right: 1.938rem;
+    top: 18.5rem;
+    box-sizing: border-box;
+    bottom: 0rem;
+    background: #FFFFFF;
+    border: 0.063rem solid #DFE0EB;
+    border-radius: 0.5rem;
+}
+.lyrics1 {
+    position: absolute;
+    height: 1.5rem;
+    left: 2rem;
+    right: 11.125rem;
+    top: 2rem;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.188rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.025rem;
+    color: #252733;
+}
+.group {
+    position: absolute;
+    height: 1rem;
+    left: 2rem;
+    right: 11.125rem;
+    top: 4rem;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.006rem;
+    color: #9FA2B4;
+}
+
+.ticket1 {
+    position: absolute;
+    height: 3.625rem;
+    left: 0rem;
+    right: 0rem;
+    top: 6rem;
+    border-bottom: 0.063rem solid #DFE0EB;
+
+}
+.lyricsticket {
+    position: absolute;
+    height: 1.25rem;
+    left: 2rem;
+    right: 8.5rem;
+    top: calc(50% - 1.25rem/2 + 0.063rem);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.013rem;
+    color: #252733;
+}
+.details {
+    position: absolute;
+    width: 5.25rem;
+    height: 1.125rem;
+    right: 6.563rem;
+    top: 1.313rem;
+}
+.lyricsview{
+    position: absolute;
+    height: 1.25rem;
+    left: 0rem;
+    right: 0rem;
+    top: calc(50% - 1.25rem/2);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: right;
+    letter-spacing: 0.013rem;
+    color: #3751FF;
+}
+.lyricspag {
+    position: absolute;
+    width: 5rem;
+    height: 1.25rem;
+    right: 2rem;
+    top: calc(50% - 1.25rem/2 + 0.063rem);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: right;
+    letter-spacing: 0.013rem;
+    color: #9FA2B4;
+}
+
+.ticket2 {
+    position: absolute;
+    height: 3.625rem;
+    left: 0rem;
+    right: 0rem;
+    top: 9.625rem;
+    border-bottom: 0.063rem solid #DFE0EB;
+}
+.details2 {
+    position: absolute;
+    width: 5.25rem;
+    height: 1.125rem;
+    right: 6.625rem;
+    top: 1.375rem;  
+}
